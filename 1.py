@@ -15,4 +15,6 @@ def is_password_good(password):
         print("пароль должен быть длиннее 10 символов")
         exit()
     print(f"Пароль {password} введен успешно")
+
+
 is_password_good(input("Введите пароль"))
